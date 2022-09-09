@@ -10,7 +10,7 @@ Step 5 Turn on Airplane Mode, DO NOT TURN IT OFF UNLESS YOU ABSOLUTELY HAVE TO. 
 
 Step 6 Enable WiFi calling, you will get/make calls and texts as usual, but everything goes out over WiFI and through your PiHole where you decide if it gets out or not.
 
-Step 7 Disable Bluetooth and BLE connectivity. The BLE setting is a few levels deep, if you can’t find it let me know I have instructions for iPhone and Android (https://github.com/nocturnalarchives/github/blob/master/misc/disable-ble-contact-tracing.txt).
+Step 7 Disable Bluetooth and BLE connectivity. The BLE setting is a few levels deep.
 
 Step 8 When you leave your house disable WiF, keep it off until you reach your destination.
 
@@ -20,7 +20,7 @@ Step 10 When you get to your destination connect to a WiFi network, this will es
 
 Step 11 When you are ready to leave turn off the WiFi but keep the VPN active, this keeps your data from “leaking”
 
-Step 12 Watch the logs on your PiHole and block any location data from getting out. For example apple uses these two domains to get your location:
+Step 12 Watch the logs on your PiHole and block any location data from getting out. For example apple uses these two subdomains to get your location:
 
 gs-loc.apple.com
 ls.apple.com
